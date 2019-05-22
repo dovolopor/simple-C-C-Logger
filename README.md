@@ -25,6 +25,7 @@ Possible values are defined just below of `LOG_LEVEL` and they are pretty much s
 #### 2. Use functions as you would use printf()
 
 **Examples:**
+
     logError("Someting wrong happened. Error no :%d", errNo);
     logWarning("Unexpected length (Expected: %d, read:%d)", length, read);
     logInfo("Here is some info");
