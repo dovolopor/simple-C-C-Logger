@@ -9,7 +9,11 @@ A simple and minimal C/C++ Logger.
 
 ## Usage
 
-#### 1. (optinal) Set log level
+#### 1. Include simpleLogger.h in your project
+
+Copy simpleLogger.h to your project or just copy the content of it somewhere in your code.
+
+#### 2. (optinal) Set log level
 
 Set log level by assigning values to LOG_LEVEL definition (in simpleLogger.h line ~19)
 
@@ -20,6 +24,7 @@ Possible values are defined just below of `LOG_LEVEL` and they are pretty much s
 
 #### 2. Use functions as you would use printf()
 
+**Examples:**
     logError("Someting wrong happened. Error no :%d", errNo);
     logWarning("Unexpected length (Expected: %d, read:%d)", length, read);
     logInfo("Here is some info");
