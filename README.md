@@ -3,7 +3,7 @@ A simple and minimal C/C++ Logger.
 
 ## Properties
 
-* Log Errors, Warnings, Info and details in different colors.
+* Logs Errors, Warnings, Info and details in different colors.
 * You can set the log level so that some/all logs are disabled and totally ommited from output binaries by macros.
 * For wanings and errors, it outputs filename and lineNumber of the error/warning.
 
