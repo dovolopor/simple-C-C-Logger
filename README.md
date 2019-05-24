@@ -26,8 +26,10 @@ Possible values are defined just below of `LOG_LEVEL` and they are pretty much s
 
 **Examples:**
 
-    logError("Someting wrong happened. Error no :%d", errNo);
-    logWarning("Unexpected length (Expected: %d, read:%d)", length, read);
-    logInfo("Here is some info");
-    logDetail("Read data %c", c);
+```cpp
+logError("Someting wrong happened. Error no :%d", errNo);
+logWarning("Unexpected length (Expected: %d, read:%d)", length, read);
+logInfo("Here is some info");
+logDetail("Read data %c", c);
+```
 
