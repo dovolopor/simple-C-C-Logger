@@ -1,4 +1,4 @@
-# simple-C-C-Logger  
+# simple C/C++ Logger  
 A simple and minimal C/C++ Logger.  
 
 ## Properties
